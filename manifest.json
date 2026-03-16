@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "灵动起始页 Pro",
+  "version": "1.1",
+  "description": "严格遵循 MV3 规范的起始页插件。支持自定义分类、磁贴、搜索引擎及背景。",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://api.iconify.design/*",
+    "https://icdn.binmt.cc/*"
+  ],
+  "action": {
+    "default_title": "灵动起始页"
+  },
+  "icons": {
+    "120": "js/icon.png"
+  }
+}
